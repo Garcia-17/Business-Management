@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block content %}
+
+<h3>Email verification</h3>
+
+<p>Hello {{ username }},</p>
+
+<p>Please verify your email by following the next url.</p>
+
+<p>
+    <a href="{{ verification_url }}"> Verify email </a>
+</p>
+
+{% endblock %}
